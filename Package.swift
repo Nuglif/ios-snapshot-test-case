@@ -4,13 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "iOSSnapshotTestCase",
-    platforms: [
-        .iOS(.v10), .tvOS(.v10),
-    ],
     products: [
         .library(
             name: "iOSSnapshotTestCase",
-            type: .dynamic,
             targets: [
                 "iOSSnapshotTestCase",
                 "iOSSnapshotTestCaseCore"
